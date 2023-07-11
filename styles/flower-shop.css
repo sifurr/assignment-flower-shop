@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* styles for banner */
+.header {
+    display: flex;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-content {
+    max-width: 708px;   
+    margin: 137px 0px 95px 200px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;        
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 32px;
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner-image{
+    background-image: url('/images/pngwing-10.png');
+    height: 800px;
+    width: 635px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin-top: 20px;
+    margin-left: 97px;
+}
+
+
