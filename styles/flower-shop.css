@@ -68,9 +68,12 @@ body {
     color: #272727;
     text-align: center;
     font-size: 30px;
-    font-weight: 700;
-    margin-top: 178px;
+    font-weight: 700;    
     margin-bottom: 24px;
+}
+
+.featured-flowers-top .section-title{
+    margin-top: 178px;
 }
 
 .section-description {
@@ -211,6 +214,10 @@ body {
     /* margin-bottom: 128px; */
 }
 
+.social-media-section .section-title{
+    margin-top: 128px;
+}
+
 /* latest deal related styles  */
 .latest-deal-section {
     background-image: url('../images/rectangle-9.png');
@@ -221,12 +228,15 @@ body {
 }
 
 .latest-deal-container .section-title {
+
+    margin-top: 128px;  
     padding-top: 122px;
-    padding-bottom: 16px;
+    padding-bottom: 16px; 
 }
 
 .latest-deal-container .section-description {
     padding-bottom: 48px;
+    margin-bottom: 0px;
 }
 
 .latest-deal-container form {
@@ -234,7 +244,6 @@ body {
 }
 
 .latest-deal-container .user-input {
-
     border-radius: 8px;
     border: 0px;
     background: #FFF;
@@ -247,11 +256,14 @@ body {
 /* customer reviews section */
 
 .customer-reviews-section{
+    margin-top: 128px;
     background-color: #e5d8d0;
+    max-width: 1440px;
 }
 
 .customer-reviews-section .section-title{
     padding-top: 120px;
+    margin-bottom: 0px;
 }
 .review-container{
     display: flex;
