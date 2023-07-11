@@ -29,7 +29,6 @@ body {
     color: #272727;
     font-size: 50px;
     font-weight: 800;
-    margin-bottom: 32px;
 }
 
 .banner-description {
@@ -152,6 +151,16 @@ body {
     height: 320px;
     width: 1440px;
     margin: 0 auto;
+    text-align: center;
+}
+
+.special-features img{
+    margin-top: 86px;
+}
+
+.special-features p{
+    margin-top: 24px;
+    margin-bottom: 128px;
 }
 
 
@@ -201,3 +210,5 @@ body {
     gap: 24px;
     margin-bottom: 128px;
 }
+
+/* latest deal related styles  */
