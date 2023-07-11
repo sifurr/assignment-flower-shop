@@ -13,18 +13,22 @@ body {
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: rgba(229, 84, 115, 0.10);
+    max-width: 1920px;
+    height: 850px;
+    margin: 0 auto;
 }
 
 .banner-content {
-    max-width: 708px;   
+    /* max-width: 708px; */
     margin: 137px 0px 95px 200px;
 }
 
 .banner-title {
     color: #272727;
     font-size: 50px;
-    font-weight: 800;        
+    font-weight: 800;
     margin-bottom: 32px;
 }
 
@@ -45,14 +49,111 @@ body {
     font-weight: 700;
 }
 
-.banner-image{
+.banner-image {
     background-image: url('/images/pngwing-10.png');
     height: 800px;
     width: 635px;
     background-repeat: no-repeat;
     background-position-y: bottom;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 97px;
 }
+
+/* main  */
+/* featured flower related styles */
+.section {
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 178px;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.featured-flower-images {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.featured-flower-bg-one,
+.featured-flower-bg-two,
+.featured-flower-bg-three {
+    height: 538px;
+    width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-flower-bg-one {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flower-bg-two {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flower-bg-three {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+.featured-image-one {
+    margin-top: 110px;
+}
+
+.featured-image-two {
+    margin-top: 117px;
+}
+
+.featured-image-three {
+    margin-top: 67px;
+}
+
+.featured-flower-text {
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.featured-flowers {
+    margin-bottom: 128px;
+}
+
+.special-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
 
 
