@@ -49,7 +49,7 @@ body {
 }
 
 .banner-image {
-    background-image: url('/images/pngwing-10.png');
+    background-image: url('../images/pngwing-10.png');
     height: 800px;
     width: 635px;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ body {
 
 /* latest deal related styles  */
 .latest-deal-section {
-    background-image: url('/images/rectangle-9.png');
+    background-image: url('../images/rectangle-9.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 449px;
