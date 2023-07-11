@@ -243,3 +243,42 @@ body {
     font-size: 16px;
     padding: 23px 513px 22px 22px;
 }
+
+/* footer related styles */
+.footer {
+    max-width: 1920px;
+    height: 449px;
+    margin: 0 auto;
+    background: #111010;
+    text-align: center;
+}
+
+.footer-content {
+    margin-top: 128px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    padding-bottom: 24px;
+}
+
+.footer-title span {
+    color: #FFFFFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
