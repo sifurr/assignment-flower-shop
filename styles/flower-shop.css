@@ -192,3 +192,12 @@ body {
 .hot-deal-left button{
     margin-bottom: 182px;
 }
+
+/* instagram related styles */
+.instagram-flowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 128px;
+}
