@@ -244,6 +244,37 @@ body {
     padding: 23px 513px 22px 22px;
 }
 
+/* customer reviews section */
+
+.customer-reviews-section{
+    background-color: #e5d8d0;
+}
+
+.customer-reviews-section .section-title{
+    padding-top: 120px;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.reviews img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
 /* footer related styles */
 .footer {
     max-width: 1920px;
